@@ -1,316 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Patricio Contreras — Developer</title>
+  <meta name="description" content="Portfolio of Patricio Contreras: self-taught developer and automotive mechatronics engineer from Chile." />
+  <meta property="og:title" content="Patricio Contreras — Developer" />
+  <meta property="og:description" content="Web apps, APIs and bots built with React, Node, Django and Python." />
+  <meta property="og:image" content="https://patcont.github.io/Portfolio-webpage/img/patricio.webp" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23101828'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='%2338e1b0' font-family='monospace'>PC</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=JetBrains+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#projects">Skip to projects</a>
 
-    <title>Personal Bootstrap Template</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+  <header class="nav">
+    <a class="logo" href="#top">patcont<span>_</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon (2).png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
-
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: Personal - v4.7.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-  </head>
-
-  <body>
-    <!-- ======= Header ======= -->
-    <header id="header">
-      <div class="container">
-        <h1><a href="index.html">Patricio Contreras</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link active" href="#header">Home</a></li>
-            <li><a class="nav-link" href="#about">About</a></li>
-            <li><a class="nav-link" href="/#portfolio">Portfolio</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-
-        <div class="social-links">
-          <a
-            href="https://www.linkedin.com/in/patcont"
-            target="_blank"
-            class="linkedin"
-            ><i class="bi bi-linkedin"></i
-          ></a>
-          <a href="https://github.com/patcont" target="_blank" class="github"
-            ><i class="bi bi-github"></i
-          ></a>
+  <main id="top">
+    <section class="hero">
+      <div>
+        <p class="kicker">// Hi, I'm</p>
+        <h1>Patricio Contreras</h1>
+        <p class="lead">
+          Self-taught developer and automotive mechatronics engineer from Chile.
+          I like building things that work — from engines to web apps, APIs and bots.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See my work</a>
+          <a class="btn" href="https://github.com/patcont" target="_blank" rel="noreferrer">GitHub ↗</a>
         </div>
       </div>
-    </header>
-    <!-- End Header -->
+      <img class="avatar" src="img/patricio.webp" width="240" height="240" alt="Portrait of Patricio Contreras" />
+    </section>
 
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <!-- ======= About Me ======= -->
-      <div class="about-me container">
-        <div class="section-title">
-          <h2>About</h2>
-          <p>Learn more about me</p>
-        </div>
+      <h2>About</h2>
+      <div class="about-grid">
+        <p>
+          I'm a professional in <strong>Automotive Mechanical Engineering and Autotronics</strong> (Duoc UC),
+          so diagnosing complex systems is in my DNA. I taught myself to program, joined bootcamps and team
+          projects, and built the apps you see below by hand — before AI assistants existed.
+          In 2026 I revisited and modernized them as a way to see how far both I and the tools have come.
+        </p>
+        <ul class="facts">
+          <li><span>🌎</span> Chile</li>
+          <li><span>🗣️</span> Spanish · English (advanced)</li>
+          <li><span>🔧</span> Automotive diagnostics &amp; electronics</li>
+          <li><span>💻</span> Web, APIs, automation</li>
+        </ul>
+      </div>
+      <ul class="skills" aria-label="Skills">
+        <li>JavaScript</li><li>TypeScript</li><li>React</li><li>Angular</li><li>Node.js</li><li>Express</li>
+        <li>NestJS</li><li>Python</li><li>Django</li><li>Java</li><li>SQL / SQLite</li><li>HTML &amp; CSS</li><li>Git</li>
+      </ul>
+    </section>
 
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right"></div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Software Developer</h3>
-            <p class="fst-italic">
-              Motivated and personable, self-taught in programming languages,
-              English speaker and professional educated in automotive
-              electronics diagnostics. Passionate about the future of technology
-              and computing.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li>
-                    <i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
-                    <span>+56 9 32030680</span>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li>
-                    <i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                    <span>patricio.cr95@protonmail.com</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+    <section id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="on" data-filter="all">All</button>
+          <button data-filter="fullstack">Full-stack</button>
+          <button data-filter="react">React</button>
+          <button data-filter="web">Web</button>
+          <button data-filter="bot">Bots &amp; more</button>
         </div>
       </div>
-      <!-- End About Me -->
-    </section>
-    <!-- End About Section -->
-    
-    
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-        <div class="section-title">
-          <h2>Portfolio</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-          <div
-            class="col-lg-4 col-md-6 portfolio-item filter-app portfolio-links"
-          >
-          
-            <div class="portfolio-wrap">
-              <img
-                src="assets/img/portfolio/malukin2.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info portfolio-links">
-                <a href="portfolio-details.html">
-                  <h4>Axie infinity bot</h4>
-                </a>
-              </div>
+      <div class="grid">
+        <article class="project" data-tags="fullstack react">
+          <img src="img/filters.webp" alt="Water filter dashboard" loading="lazy" />
+          <div class="body">
+            <h3>Water Filter Tracker</h3>
+            <p>Dashboard that tells you when each cartridge of a home water system needs replacing.</p>
+            <ul class="tags"><li>React</li><li>Express 5</li><li>SQLite</li></ul>
+            <div class="links">
+              <a href="https://github.com/patcont/filter-project" target="_blank" rel="noreferrer">Frontend</a>
+              <a href="https://github.com/patcont/filter-project-backend" target="_blank" rel="noreferrer">API</a>
             </div>
           </div>
+        </article>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img
-                src="assets/img/portfolio/bruja2.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info portfolio-links">
-                <a href="portfolio-details copy.html">
-                  <h4>Esoteric random number generator</h4>
-                </a>
-              </div>
+        <article class="project" data-tags="fullstack react">
+          <img src="img/matrix-crew.webp" alt="Matrix Crew Database" loading="lazy" />
+          <div class="body">
+            <h3>Matrix Crew Database</h3>
+            <p>Matrix-themed CRUD to manage ships and crews, with a REST API and admin.</p>
+            <ul class="tags"><li>React</li><li>Django REST</li><li>Python</li></ul>
+            <div class="links">
+              <a href="https://github.com/patcont/Matrix_Crew_Database" target="_blank" rel="noreferrer">Code</a>
             </div>
           </div>
+        </article>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img
-                src="assets/img/portfolio/torres-del-paine-chile-1.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info portfolio-links">
-                <a href="portfolio-details copy 2.html">
-                  <h4>Chilean landscapes cards</h4>
-                </a>
-              </div>
+        <article class="project" data-tags="react">
+          <img src="img/todo.webp" alt="Matrix to-do list" loading="lazy" />
+          <div class="body">
+            <h3>Things To Do — Matrix edition</h3>
+            <p>Keyboard-first to-do list with digital rain, filters, search and persistence.</p>
+            <ul class="tags"><li>React 19</li><li>Canvas</li><li>Vitest</li></ul>
+            <div class="links">
+              <a href="https://patcont.github.io/TODO-list-React-App/" target="_blank" rel="noreferrer">Demo</a>
+              <a href="https://github.com/patcont/TODO-list-React-App" target="_blank" rel="noreferrer">Code</a>
             </div>
           </div>
+        </article>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img
-                src="assets/img/portfolio/1200px-The.Matrix.glmatrix.1.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info portfolio-links">
-                <a href="portfolio-details copy 3.html">
-                  <h4>Matrix themed "to do list" React app</h4>
-                </a>
-              </div>
+        <article class="project" data-tags="react">
+          <img src="img/counter.webp" alt="Counter app" loading="lazy" />
+          <div class="body">
+            <h3>Counter</h3>
+            <p>My first React app: a tiny counter with keyboard shortcuts and memory.</p>
+            <ul class="tags"><li>React 19</li><li>Vite</li></ul>
+            <div class="links">
+              <a href="https://patcont.github.io/counter/" target="_blank" rel="noreferrer">Demo</a>
+              <a href="https://github.com/patcont/counter" target="_blank" rel="noreferrer">Code</a>
             </div>
           </div>
+        </article>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img
-                src="assets/img/portfolio/ss-crypto-future.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info portfolio-links">
-                <a href="portfolio-details copy 4.html">
-                  <h4>Java crypto exchange</h4>
-                </a>
-              </div>
+        <article class="project" data-tags="web">
+          <img src="img/esoteric.webp" alt="Crystal ball lucky number generator" loading="lazy" />
+          <div class="body">
+            <h3>Lucky Number Crystal Ball</h3>
+            <p>Esoteric random number generator with omens and Web Audio ambience.</p>
+            <ul class="tags"><li>JavaScript</li><li>Web Audio</li><li>CSS</li></ul>
+            <div class="links">
+              <a href="https://patcont.github.io/Esoteric-random-number-generator/" target="_blank" rel="noreferrer">Demo</a>
+              <a href="https://github.com/patcont/Esoteric-random-number-generator" target="_blank" rel="noreferrer">Code</a>
             </div>
           </div>
+        </article>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img
-                src="assets/img/portfolio/animated-counter-featured.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info">
-                <div class="portfolio-info portfolio-links">
-                  <a href="portfolio-details copy 5.html">
-                    <h4>Number counter react app</h4>
-                  </a>
-                </div>
-              </div>
+        <article class="project" data-tags="web">
+          <div class="thumb" style="--c1:#d98b4a;--c2:#3c6e71">🏔️</div>
+          <div class="body">
+            <h3>Paisajes de Chile</h3>
+            <p>Expanding cards with landscapes from Atacama to Patagonia. Accessible and responsive.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="links">
+              <a href="https://patcont.github.io/Chilean-landscapes-cards/" target="_blank" rel="noreferrer">Demo</a>
+              <a href="https://github.com/patcont/Chilean-landscapes-cards" target="_blank" rel="noreferrer">Code</a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img
-                src="assets\img\portfolio\movies.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info">
-                <div class="portfolio-info portfolio-links">
-                  <a href="portfolio-details copy 6.html">
-                    <h4>Movie catalog website</h4>
-                  </a>
-                </div>
-              </div>
+        </article>
+
+        <article class="project" data-tags="web">
+          <div class="thumb" style="--c1:#c0392b;--c2:#1f2937">🎬</div>
+          <div class="body">
+            <h3>Movie Catalog</h3>
+            <p>Movie catalog by category using The Movie Database API.</p>
+            <ul class="tags"><li>Angular</li><li>TypeScript</li><li>PrimeNG</li></ul>
+            <div class="links">
+              <a href="https://patcont.github.io/Movie-catalog-website/" target="_blank" rel="noreferrer">Demo</a>
+              <a href="https://github.com/patcont/Movie-catalog-website" target="_blank" rel="noreferrer">Code</a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img
-                src="assets\img\portfolio\devsafio.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info">
-                <div class="portfolio-info portfolio-links">
-                  <a href="portfolio-details copy 7.html">
-                    <h4>Dlab React project</h4>
-                  </a>
-                </div>
-              </div>
+        </article>
+
+        <article class="project" data-tags="react">
+          <img src="img/devsafio.webp" alt="Devsafio job board" loading="lazy" />
+          <div class="body">
+            <h3>Devsafio (team project)</h3>
+            <p>Front-end of a job board for first IT jobs, built with a bootcamp team.</p>
+            <ul class="tags"><li>React</li><li>Tailwind</li><li>Formik</li></ul>
+            <div class="links">
+              <a href="https://github.com/patcont/devsafio-web2" target="_blank" rel="noreferrer">Code</a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img
-                src="assets\img\portfolio\Trading-Bot-con-Python (1).jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info">
-                <div class="portfolio-info portfolio-links">
-                  <a href="portfolio-details copy 8.html">
-                    <h4>Python Kraken Trading bot</h4>
-                  </a>
-                </div>
-              </div>
+        </article>
+
+        <article class="project" data-tags="bot">
+          <img src="img/discord-bot.webp" alt="Discord bot answering commands" loading="lazy" />
+          <div class="body">
+            <h3>Discord bots</h3>
+            <p>Bots that tracked game scholars' performance and relayed GitHub notifications.</p>
+            <ul class="tags"><li>Python</li><li>discord.py</li><li>REST APIs</li></ul>
+            <div class="links">
+              <a href="https://github.com/patcont/Axie-infinity-schoolars-bot" target="_blank" rel="noreferrer">Scholars bot</a>
+              <a href="https://github.com/patcont/github-notifications-bot-project" target="_blank" rel="noreferrer">GitHub bot</a>
             </div>
           </div>
-        </div>
+        </article>
+
+        <article class="project" data-tags="bot">
+          <div class="thumb" style="--c1:#e76f00;--c2:#5382a1">☕</div>
+          <div class="body">
+            <h3>Java Crypto Exchange</h3>
+            <p>Object-oriented simulation of a cryptocurrency exchange with clients and agents.</p>
+            <ul class="tags"><li>Java</li><li>OOP</li></ul>
+            <div class="links">
+              <a href="https://github.com/patcont/crypto-exchange2" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
-    <!-- End Portfolio Section -->
-  </body>
-</html>
 
-    <div class="credits">
-      <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-    </div>
+    <section id="contact" class="contact">
+      <h2>Let's talk</h2>
+      <p>Open to freelance work, collaborations and interesting problems.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:patricio.cr95@protonmail.com">patricio.cr95@protonmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/patcont" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a class="btn" href="https://github.com/patcont" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <footer>© <span id="year"></span> Patricio Contreras · Hand-coded in 2022, modernized in 2026</footer>
+</body>
 </html>
